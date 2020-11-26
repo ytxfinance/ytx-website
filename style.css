@@ -130,12 +130,30 @@ header {
     padding: 20px 30px;
     display: block;
     max-width: 200px;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
 }
 
 .button-whitepaper:hover {
     background-color: #fd831a;
+}
+
+.button-discord {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.button-discord:hover {
+    border: 2px solid #fd831a;
+    color: #fd831a;
 }
 
 .spacer {
