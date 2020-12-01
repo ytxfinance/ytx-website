@@ -10,6 +10,19 @@ body {
 header {
     max-width: 800px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a {
+    color: white;
+}
+.header-links a:hover {
+    opacity: 0.8;
+}
+.header-links a:active {
+    opacity: 0.6;
 }
 
 .logo {
